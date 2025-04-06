@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- ✅ 공통: 외부 CSS 링크 -->
+</head>
+<body>
+
+  <!-- ✅ 공통 메뉴 -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="apply.html">Apply</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mailto:info@dehagames.com.au">Email</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section><!-- ✅1,2,3  
+        Your group name - Class time and day 
+        Your tutor’s name
+        All your student IDs
+        -->
+        <h2>Group Information</h2>
+        <ul>
+          <li>Group Name: <!-- 그룹 이름 -->DEHA Developers</li>
+          
+          <li>Class Details
+            <ul>
+              <li>Day: <!-- 요일 -->Thursday</li>
+              <li>Time: <!-- 시간 -->1:30 PM</li>
+            </ul>
+          </li>
+      
+          <li>Tutor Name
+            <ul>
+              <li><!-- 튜터 이름 -->John Smith</li>
+            </ul>
+          </li>
+      
+          <li>Team Members
+            <ul>
+              <li><!-- Member 1 이름 -->Alice
+                <ul>
+                  <li>Student ID: <!-- Member 1 학번 -->12345678</li>
+                </ul>
+              </li>
+              <li><!-- Member 2 이름 -->Bob
+                <ul>
+                  <li>Student ID: <!-- Member 2 학번 -->23456789</li>
+                </ul>
+              </li>
+              <li><!-- Member 3 이름 -->Charlie
+                <ul>
+                  <li>Student ID: <!-- Member 3 학번 -->34567890</li>
+                </ul>
+              </li>
+              <li><!-- Member 4 이름 -->Diana
+                <ul>
+                  <li>Student ID: <!-- Member 4 학번 -->45678901</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      
+
+    <section>
+      <!-- ✅4 멤버별 기여도: 정의 목록 사용 -->
+      <h2>Member Contributions</h2>
+      <dl>
+        <dt><!-- Member 1 이름 --></dt>
+        <dd><!-- Member 1의 작업 기여 내용 --></dd>
+
+        <dt><!-- Member 2 이름 --></dt>
+        <dd><!-- Member 2의 작업 기여 내용 --></dd>
+
+        <dt><!-- Member 3 이름 --></dt>
+        <dd><!-- Member 3의 작업 기여 내용 --></dd>
+
+        <dt><!-- Member 4 이름 --></dt>
+        <dd><!-- Member 4의 작업 기여 내용 --></dd>
+      </dl>
+    </section>
+
+    <section>
+      <!-- ✅5 그룹 사진: 300KB 이하 이미지와 캡션 -->
+      <h2>Group Photo</h2>
+      <figure>
+        <img src="images/group_photo.jpg" alt="Group photo of DEHA Developers" width="300">
+        <figcaption>DEHA Developers Team</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <!-- ✅6 구성원 관심사: 표 형식, 병합 셀 포함 -->
+      <h2>Group Interests</h2>
+      <table>
+        <caption>Group Member Interests</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Interest</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2"><!-- Member 1 이름 --></td>
+            <td><!-- Member 1 관심사 1 --></td>
+            <td><!-- Member 1 세부 설명 1 --></td>
+          </tr>
+          <tr>
+            <td><!-- Member 1 관심사 2 --></td>
+            <td><!-- Member 1 세부 설명 2 --></td>
+          </tr>
+
+          <tr>
+            <td rowspan="2"><!-- Member 2 이름 --></td>
+            <td><!-- Member 2 관심사 1 --></td>
+            <td><!-- Member 2 세부 설명 1 --></td>
+          </tr>
+          <tr>
+            <td><!-- Member 2 관심사 2 --></td>
+            <td><!-- Member 2 세부 설명 2 --></td>
+          </tr>
+
+          <tr>
+            <td rowspan="2"><!-- Member 3 이름 --></td>
+            <td><!-- Member 3 관심사 1 --></td>
+            <td><!-- Member 3 세부 설명 1 --></td>
+          </tr>
+          <tr>
+            <td><!-- Member 3 관심사 2 --></td>
+            <td><!-- Member 3 세부 설명 2 --></td>
+          </tr>
+
+          <tr>
+            <td rowspan="2"><!-- Member 4 이름 --></td>
+            <td><!-- Member 4 관심사 1 --></td>
+            <td><!-- Member 4 세부 설명 1 --></td>
+          </tr>
+          <tr>
+            <td><!-- Member 4 관심사 2 --></td>
+            <td><!-- Member 4 세부 설명 2 --></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+<!--Extra members information-->
+<section>
+  <h2>Meet Our Team</h2>
+  <div class="team-grid">
+
+    <!-- 🔶 Member 1 -->
+    <div class="member-card">
+      <img src="images/member1.jpg" alt="Photo of Member 1">
+      <h3><!-- 이름 -->Alice</h3>
+      <p><strong>Nationality:</strong> South Korean</p>
+      <p><strong>Languages:</strong> Korean, English</p>
+      <p><strong>Skills:</strong> HTML, CSS, Java</p>
+      <p><strong>Course:</strong> COS10026</p>
+      <p><strong>Hometown:</strong> Busan</p>
+      <p><strong>Favourite Food:</strong> Tteokbokki</p>
+    </div>
+
+    <!-- 🔶 Member 2 -->
+    <div class="member-card">
+      <img src="images/member2.jpg" alt="Photo of Member 2">
+      <h3><!-- 이름 -->Bob</h3>
+      <p><strong>Nationality:</strong> Vietnamese</p>
+      <p><strong>Languages:</strong> Vietnamese, English</p>
+      <p><strong>Skills:</strong> JavaScript, React</p>
+      <p><strong>Course:</strong> COS20007</p>
+      <p><strong>Hometown:</strong> Hanoi</p>
+      <p><strong>Favourite Food:</strong> Pho</p>
+    </div>
+
+    <!-- 🔶 Member 3 -->
+    <div class="member-card">
+      <img src="images/member3.jpg" alt="Photo of Member 3">
+      <h3><!-- 이름 -->Charlie</h3>
+      <p><strong>Nationality:</strong> Chinese</p>
+      <p><strong>Languages:</strong> Mandarin, English</p>
+      <p><strong>Skills:</strong> Python, Django</p>
+      <p><strong>Course:</strong> COS30017</p>
+      <p><strong>Hometown:</strong> Beijing</p>
+      <p><strong>Favourite Food:</strong> Dim Sum</p>
+    </div>
+
+    <!-- 🔶 Member 4 -->
+    <div class="member-card">
+      <img src="images/member4.jpg" alt="Photo of Member 4">
+      <h3><!-- 이름 -->Diana</h3>
+      <p><strong>Nationality:</strong> Malaysian</p>
+      <p><strong>Languages:</strong> Malay, English</p>
+      <p><strong>Skills:</strong> PHP, MySQL</p>
+      <p><strong>Course:</strong> COS10009</p>
+      <p><strong>Hometown:</strong> Kuala Lumpur</p>
+      <p><strong>Favourite Food:</strong> Nasi Lemak</p>
+    </div>
+
+  </div>
+</section>
+ <!-- Extra members information-->
+ <section>
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+  
+      <!-- 🔶 Member 1 -->
+      <div class="member-card">
+        <ul>
+          <li><img src="images/member1.jpg" alt="Photo of Alice"></li>
+          <li><strong>Name:</strong> Alice</li>
+          <li><strong>Nationality:</strong> South Korean</li>
+          <li><strong>Languages:</strong> Korean, English</li>
+          <li><strong>Skills:</strong> HTML, CSS, Java</li>
+          <li><strong>Course:</strong> COS10026</li>
+          <li><strong>Hometown:</strong> Busan</li>
+          <li><strong>Favourite Food:</strong> Tteokbokki</li>
+        </ul>
+      </div>
+  
+      <!-- 🔶 Member 2 -->
+      <div class="member-card">
+        <ul>
+          <li><img src="images/member2.jpg" alt="Photo of Bob"></li>
+          <li><strong>Name:</strong> Bob</li>
+          <li><strong>Nationality:</strong> Vietnamese</li>
+          <li><strong>Languages:</strong> Vietnamese, English</li>
+          <li><strong>Skills:</strong> JavaScript, React</li>
+          <li><strong>Course:</strong> COS20007</li>
+          <li><strong>Hometown:</strong> Hanoi</li>
+          <li><strong>Favourite Food:</strong> Pho</li>
+        </ul>
+      </div>
+  
+      <!-- 🔶 Member 3 -->
+      <div class="member-card">
+        <ul>
+          <li><img src="images/member3.jpg" alt="Photo of Charlie"></li>
+          <li><strong>Name:</strong> Charlie</li>
+          <li><strong>Nationality:</strong> Chinese</li>
+          <li><strong>Languages:</strong> Mandarin, English</li>
+          <li><strong>Skills:</strong> Python, Django</li>
+          <li><strong>Course:</strong> COS30017</li>
+          <li><strong>Hometown:</strong> Beijing</li>
+          <li><strong>Favourite Food:</strong> Dim Sum</li>
+        </ul>
+      </div>
+  
+      <!-- 🔶 Member 4 -->
+      <div class="member-card">
+        <ul>
+          <li><img src="images/member4.jpg" alt="Photo of Diana"></li>
+          <li><strong>Name:</strong> Diana</li>
+          <li><strong>Nationality:</strong> Malaysian</li>
+          <li><strong>Languages:</strong> Malay, English</li>
+          <li><strong>Skills:</strong> PHP, MySQL</li>
+          <li><strong>Course:</strong> COS10009</li>
+          <li><strong>Hometown:</strong> Kuala Lumpur</li>
+          <li><strong>Favourite Food:</strong> Nasi Lemak</li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- ✅ Footer: Jira 프로젝트 링크 포함 -->
+  <footer>
+    <p>Project managed on <a href="https://your-jira-link.atlassian.net" target="_blank">Jira</a></p>
+  </footer>
+
+</body>
+</html>
